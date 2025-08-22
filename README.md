@@ -20,11 +20,15 @@ A secure proxy server implementation in C with corresponding client, featuring d
 
 ### Proxy Server
 ```bash
-gcc -o secure_proxy secure_proxy.c -lssl -lcrypto -lpthread
+gcc -o secure_proxy server_side.c -lssl -lcrypto -lpthread
+````
 
 ### Client 
 ```bash
-gcc -o proxy_client proxy_client.c
-
-
-
+gcc -o proxy_client client_side.c
+````
+### Execution
+```bash
+./secure_proxy
+./client_side
+```
