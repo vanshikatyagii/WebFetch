@@ -22,7 +22,7 @@ A secure proxy server implementation in C with corresponding client, featuring d
 ```bash
 gcc -o secure_proxy secure_proxy.c -lssl -lcrypto -lpthread
 
-###Client 
+### Client 
 ```bash
 gcc -o proxy_client proxy_client.c
 
